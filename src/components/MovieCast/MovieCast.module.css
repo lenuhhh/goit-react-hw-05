@@ -1,0 +1,40 @@
+.actorDiv {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  & h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  & h5 {
+    font-size: 20px;
+    & span {
+      font-weight: 100;
+    }
+  }
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px 30px;
+  & li {
+    list-style-type: none;
+    border: 1px solid #551a8b;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}
+
+.image {
+  display: block;
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+}
+
+.castText {
+  font-size: 25px;
+}

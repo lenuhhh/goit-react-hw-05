@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 52px;
+  padding: 8px 0;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #551a8b;
+  min-width: 900px;
+}
+
+.nav {
+  display: flex;
+}
+
+.logo {
+  font-weight: 700;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  font-size: 29px;
+  color: #551a8b;
+}
+
+.link {
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  gap: 5px;
+}
+
+.active {
+  color: white;
+  background-color: #551a8b;
+}

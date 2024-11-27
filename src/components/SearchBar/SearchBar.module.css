@@ -1,0 +1,28 @@
+.wrapper {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.input {
+  padding: 8px 32px 8px 8px;
+  border-radius: 10px;
+  font: inherit;
+  border: 1px solid #551a8b;
+  outline: none;
+  min-width: 200px;
+}
+
+.icon {
+  position: absolute;
+  right: 10px;
+  top: 7px;
+  color: #551a8b;
+  background-color: transparent;
+  padding: 0;
+  outline: none;
+  border: none;
+}
